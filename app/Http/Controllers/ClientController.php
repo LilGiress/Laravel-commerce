@@ -26,4 +26,26 @@ class ClientController extends Controller
     public function contact(){
         return view ('client.contact');
     }
+
+    public function blog(){
+        return view('client.blog');
+    }
+
+    public function cart(){
+        return view('client.cart');
+    }
+
+
+    public function product_single()
+    {
+        return view('client.product_single');
+    }
+
+    public function wishlist(){
+        return view('client.wishlist');
+    }
+
+    public function checkout(){
+        return view('client.checkout');
+    }
 }
