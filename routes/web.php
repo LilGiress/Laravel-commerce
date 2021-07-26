@@ -27,3 +27,9 @@ Route::get('/about','ClientController@about@about')->name('about');
 Route::get('/wishlist','ClientController@wishlist')->name('wishlist');
 Route::get('/cart','ClientController@cart')->name('cart');
 Route::get('/blog','ClientController@blog')->name('blog');
+
+
+
+
+
+Route::get('/admin', 'AdminController@dashboard')->name('admin');
